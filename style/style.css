@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 5px 5px 5px 5px;
+}
+
+@font-face {
+  font-family: Estedad-Black;
+  src: url(/fonts/Estedad-Black.ttf);
+}
+@font-face {
+  font-family: Estedad-Bold;
+  src: url(/fonts/Estedad-Bold.ttf);
+}
+@font-face {
+  font-family: Estedad-ExtraBold;
+  src: url(/fonts/Estedad-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Estedad-ExtraLight;
+  src: url(/fonts/Estedad-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Estedad-Light;
+  src: url(/fonts/Estedad-Light.ttf);
+}
+@font-face {
+  font-family: Estedad-Medium;
+  src: url(/fonts/Estedad-Medium.ttf);
+}
+@font-face {
+  font-family: Estedad-Regular;
+  src: url(/fonts/Estedad-Regular.ttf);
+}
+@font-face {
+  font-family: Estedad-SemiBold;
+  src: url(/fonts/Estedad-SemiBold.ttf);
+}
+@font-face {
+  font-family: Estedad-Thin;
+  src: url(/fonts/Estedad-Thin.ttf);
+}
+body main header nav .logo img {
+  width: 150px;
+  height: 100px;
+}
+body main header nav ul {
+  width: 100%;
+}
+body main header nav ul li a {
+  font-family: Estedad-Regular;
+}
+body main header nav ul li a:hover {
+  color: rgb(128, 125, 125) !important;
+}
+body main header nav ul .basket {
+  border: solid 1px rgb(255, 172, 186) !important;
+}
+body main header .carousel .carousel-inner .carousel-item img {
+  height: 450px;
+  border-radius: 50px;
+}
+body main header .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  font-family: Estedad-Medium;
+}
+body main .Products h2 {
+  font-family: Estedad-Medium;
+}
+body main .Products .products__card .card img {
+  height: 200px;
+}
+body main .Products .products__card .card img .card-body h6 {
+  font-family: Estedad-Regular;
+}
+body main .Products .view a {
+  text-decoration: none;
+  font-family: Estedad-Regular;
+}
+
+/*# sourceMappingURL=style.css.map */
